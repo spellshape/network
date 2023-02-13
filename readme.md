@@ -31,7 +31,7 @@
 ## Get started
 
 ```
-ignite chain serve
+spellshape chain serve
 ```
 
 ## Launching chains with Ignite CLI
