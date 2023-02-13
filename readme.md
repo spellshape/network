@@ -26,7 +26,7 @@
     <img alt="Lint Status" src="https://github.com/tendermint/spn/workflows/Lint/badge.svg" />
 </div>
 
-**spn** is a blockchain built using Cosmos SDK and Tendermint and created with [Ignite](https://github.com/ignite/cli).
+**spn** is a blockchain built using Cosmos SDK and Tendermint.
 
 ## Get started
 
@@ -34,15 +34,10 @@
 spellshape chain serve
 ```
 
-## Launching chains with Ignite CLI
+## Launching chains with Spellshape CLI
 
-Please read our [guides](https://docs.ignite.com/network/introduction) for using `spn` with Ignite CLI.
+Please read our [guides](https://docs.spellshape.com/network/introduction) for using `spn` with Spellshape CLI.
 
 ## Learn more
 
-Starport Network (SPN) is a free and open source product maintained by [Ignite](https://ignite.com). Here's where you can find us. Stay in touch.
-
-- [Ignite docs](https://docs.ignite.com/)
-- [@IgniteDev on Twitter](https://twitter.com/ignite_dev)
-- [Ignite blog](https://ignite.com/blog)
-- [Cosmos SDK docs](https://docs.cosmos.network)
+Starport Network (SPN) is a free and open source product maintained by [Spellshape](https://spellshape.com).
