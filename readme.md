@@ -1,5 +1,5 @@
 <div align="center">
-  <h1> Starport Network </h1>
+  <h1>Spellshape Network</h1>
 </div>
 
 <div align="center">
