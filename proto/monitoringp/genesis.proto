@@ -7,7 +7,7 @@ import "monitoringp/consumer_client_id.proto";
 import "monitoringp/connection_channel_id.proto";
 import "monitoringp/monitoring_info.proto";
 
-option go_package = "github.com/tendermint/spn/x/monitoringp/types";
+option go_package = "github.com/spellshape/network/x/monitoringp/types";
 
 // GenesisState defines the monitoringp module's genesis state.
 message GenesisState {

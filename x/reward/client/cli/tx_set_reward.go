@@ -8,7 +8,7 @@ import (
 	"github.com/spf13/cast"
 	"github.com/spf13/cobra"
 
-	"github.com/tendermint/spn/x/reward/types"
+	"github.com/spellshape/network/x/reward/types"
 )
 
 func CmdSetRewards() *cobra.Command {

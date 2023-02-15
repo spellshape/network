@@ -20,7 +20,7 @@ format:
 	@go install mvdan.cc/gofumpt
 	@go install golang.org/x/tools/cmd/goimports
 	@find . $(FIND_ARGS) | xargs gofumpt -w .
-	@find . $(FIND_ARGS) | xargs goimports -w -local github.com/tendermint/spn
+	@find . $(FIND_ARGS) | xargs goimports -w -local github.com/spellshape/network
 
 ## lint: Run Golang CI Lint.
 lint:

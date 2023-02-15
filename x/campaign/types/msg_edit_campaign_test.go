@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/tendermint/spn/testutil/sample"
-	"github.com/tendermint/spn/x/campaign/types"
-	profile "github.com/tendermint/spn/x/profile/types"
+	"github.com/spellshape/network/testutil/sample"
+	"github.com/spellshape/network/x/campaign/types"
+	profile "github.com/spellshape/network/x/profile/types"
 )
 
 func TestMsgEditCampaign_ValidateBasic(t *testing.T) {

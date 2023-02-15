@@ -3,11 +3,11 @@ package keeper_test
 import (
 	"testing"
 
-	"github.com/tendermint/spn/testutil/sample"
+	"github.com/spellshape/network/testutil/sample"
 
 	"github.com/stretchr/testify/require"
 
-	testkeeper "github.com/tendermint/spn/testutil/keeper"
+	testkeeper "github.com/spellshape/network/testutil/keeper"
 )
 
 func TestGetParams(t *testing.T) {

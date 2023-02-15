@@ -9,7 +9,7 @@ import (
 	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/tendermint/spn/x/reward/types"
+	"github.com/spellshape/network/x/reward/types"
 )
 
 type (

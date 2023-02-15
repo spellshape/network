@@ -7,8 +7,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/tendermint/spn/testutil/sample"
-	profiletypes "github.com/tendermint/spn/x/profile/types"
+	"github.com/spellshape/network/testutil/sample"
+	profiletypes "github.com/spellshape/network/x/profile/types"
 )
 
 // CreateCoordinator creates a coordinator in the store and returns ID with associated address

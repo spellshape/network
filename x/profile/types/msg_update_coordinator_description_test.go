@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/tendermint/spn/testutil/sample"
-	profile "github.com/tendermint/spn/x/profile/types"
+	"github.com/spellshape/network/testutil/sample"
+	profile "github.com/spellshape/network/x/profile/types"
 )
 
 func TestMsgUpdateCoordinatorDescription_ValidateBasic(t *testing.T) {

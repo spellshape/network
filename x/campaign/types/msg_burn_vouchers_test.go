@@ -7,8 +7,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/tendermint/spn/testutil/sample"
-	"github.com/tendermint/spn/x/campaign/types"
+	"github.com/spellshape/network/testutil/sample"
+	"github.com/spellshape/network/x/campaign/types"
 )
 
 func TestMsgBurnVouchers_ValidateBasic(t *testing.T) {

@@ -3,8 +3,8 @@ package participation
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/tendermint/spn/x/participation/keeper"
-	"github.com/tendermint/spn/x/participation/types"
+	"github.com/spellshape/network/x/participation/keeper"
+	"github.com/spellshape/network/x/participation/types"
 )
 
 // InitGenesis initializes the participation module's state from a provided genesis

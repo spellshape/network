@@ -3,13 +3,13 @@ package keeper_test
 import (
 	"testing"
 
-	testkeeper "github.com/tendermint/spn/testutil/keeper"
+	testkeeper "github.com/spellshape/network/testutil/keeper"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/tendermint/spn/testutil/sample"
-	"github.com/tendermint/spn/x/profile/keeper"
-	"github.com/tendermint/spn/x/profile/types"
+	"github.com/spellshape/network/testutil/sample"
+	"github.com/spellshape/network/x/profile/keeper"
+	"github.com/spellshape/network/x/profile/types"
 )
 
 func TestCoordinatorAddrNotFoundInvariant(t *testing.T) {

@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	spntypes "github.com/tendermint/spn/pkg/types"
+	spntypes "github.com/spellshape/network/pkg/types"
 )
 
 var (

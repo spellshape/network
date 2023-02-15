@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/tendermint/spn/testutil/networksuite"
+	"github.com/spellshape/network/testutil/networksuite"
 )
 
 // QueryTestSuite is a test suite for query tests

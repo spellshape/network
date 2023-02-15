@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/tendermint/spn/pkg/types"
+	"github.com/spellshape/network/pkg/types"
 )
 
 func TestConsensusState_RootHash(t *testing.T) {

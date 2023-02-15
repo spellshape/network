@@ -9,12 +9,12 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	tc "github.com/tendermint/spn/testutil/constructor"
-	testkeeper "github.com/tendermint/spn/testutil/keeper"
-	"github.com/tendermint/spn/testutil/sample"
-	campaigntypes "github.com/tendermint/spn/x/campaign/types"
-	"github.com/tendermint/spn/x/launch/keeper"
-	"github.com/tendermint/spn/x/launch/types"
+	tc "github.com/spellshape/network/testutil/constructor"
+	testkeeper "github.com/spellshape/network/testutil/keeper"
+	"github.com/spellshape/network/testutil/sample"
+	campaigntypes "github.com/spellshape/network/x/campaign/types"
+	"github.com/spellshape/network/x/launch/keeper"
+	"github.com/spellshape/network/x/launch/types"
 )
 
 func createNGenesisAccountForChainID(keeper *keeper.Keeper, ctx sdk.Context, n int, chainID uint64) []types.GenesisAccount {
@@ -145,7 +145,7 @@ func TestGenesisAccountQueryPaginated(t *testing.T) {
 }
 
 // TODO: These tests must be refactored and use mocking to abstract campaign logic
-// https://github.com/tendermint/spn/issues/807
+// https://github.com/spellshape/network/issues/807
 func TestGenesisAccountMainnet(t *testing.T) {
 	var (
 		ctx, tk, _ = testkeeper.NewTestSetup(t)

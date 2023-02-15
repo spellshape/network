@@ -20,8 +20,8 @@ import (
 	tmrand "github.com/tendermint/tendermint/libs/rand"
 	tmdb "github.com/tendermint/tm-db"
 
-	"github.com/tendermint/spn/app"
-	"github.com/tendermint/spn/cmd"
+	"github.com/spellshape/network/app"
+	"github.com/spellshape/network/cmd"
 )
 
 type (

@@ -6,7 +6,7 @@ import (
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	sdksimulation "github.com/cosmos/cosmos-sdk/x/simulation"
 
-	"github.com/tendermint/spn/testutil/sample"
+	"github.com/spellshape/network/testutil/sample"
 )
 
 // GenAndDeliverTxWithRandFees generates a transaction with a random fee and delivers it.

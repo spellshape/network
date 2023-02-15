@@ -18,8 +18,8 @@ import (
 	tmtypes "github.com/tendermint/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
-	spnapp "github.com/tendermint/spn/app"
-	"github.com/tendermint/spn/cmd"
+	spnapp "github.com/spellshape/network/app"
+	"github.com/spellshape/network/cmd"
 )
 
 func GenApp(withGenesis bool, invCheckPeriod uint) (*spnapp.App, spnapp.GenesisState) {

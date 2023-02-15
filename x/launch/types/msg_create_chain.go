@@ -4,8 +4,8 @@ import (
 	sdkerrors "cosmossdk.io/errors"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/tendermint/spn/pkg/chainid"
-	profile "github.com/tendermint/spn/x/profile/types"
+	"github.com/spellshape/network/pkg/chainid"
+	profile "github.com/spellshape/network/x/profile/types"
 )
 
 const TypeMsgCreateChain = "create_chain"

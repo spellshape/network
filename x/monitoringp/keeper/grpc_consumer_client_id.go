@@ -7,7 +7,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/tendermint/spn/x/monitoringp/types"
+	"github.com/spellshape/network/x/monitoringp/types"
 )
 
 func (k Keeper) ConsumerClientID(c context.Context, req *types.QueryGetConsumerClientIDRequest) (*types.QueryGetConsumerClientIDResponse, error) {

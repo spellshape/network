@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/tendermint/spn/pkg/types"
-	tc "github.com/tendermint/spn/testutil/constructor"
-	"github.com/tendermint/spn/testutil/sample"
+	"github.com/spellshape/network/pkg/types"
+	tc "github.com/spellshape/network/testutil/constructor"
+	"github.com/spellshape/network/testutil/sample"
 )
 
 func TestNewSignatureCounts(t *testing.T) {

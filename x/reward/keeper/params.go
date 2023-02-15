@@ -3,7 +3,7 @@ package keeper
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/tendermint/spn/x/reward/types"
+	"github.com/spellshape/network/x/reward/types"
 )
 
 // GetParams get all parameters as types.Params

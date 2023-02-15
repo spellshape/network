@@ -11,10 +11,10 @@ import (
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	sdksimulation "github.com/cosmos/cosmos-sdk/x/simulation"
 
-	"github.com/tendermint/spn/testutil/sample"
-	"github.com/tendermint/spn/testutil/simulation"
-	"github.com/tendermint/spn/x/profile/keeper"
-	"github.com/tendermint/spn/x/profile/types"
+	"github.com/spellshape/network/testutil/sample"
+	"github.com/spellshape/network/testutil/simulation"
+	"github.com/spellshape/network/x/profile/keeper"
+	"github.com/spellshape/network/x/profile/types"
 )
 
 // generate a Tx with 2 signatures if validator account is not equal to operator address account

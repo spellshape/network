@@ -3,17 +3,17 @@ package keeper_test
 import (
 	"testing"
 
-	tc "github.com/tendermint/spn/testutil/constructor"
+	tc "github.com/spellshape/network/testutil/constructor"
 
 	channeltypes "github.com/cosmos/ibc-go/v6/modules/core/04-channel/types"
 	"github.com/stretchr/testify/require"
 
-	spntypes "github.com/tendermint/spn/pkg/types"
-	testkeeper "github.com/tendermint/spn/testutil/keeper"
-	"github.com/tendermint/spn/testutil/sample"
-	"github.com/tendermint/spn/x/monitoringc/types"
-	profiletypes "github.com/tendermint/spn/x/profile/types"
-	rewardtypes "github.com/tendermint/spn/x/reward/types"
+	spntypes "github.com/spellshape/network/pkg/types"
+	testkeeper "github.com/spellshape/network/testutil/keeper"
+	"github.com/spellshape/network/testutil/sample"
+	"github.com/spellshape/network/x/monitoringc/types"
+	profiletypes "github.com/spellshape/network/x/profile/types"
+	rewardtypes "github.com/spellshape/network/x/reward/types"
 )
 
 func Test_OnRecvMonitoringPacket(t *testing.T) {

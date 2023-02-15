@@ -9,8 +9,8 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/tendermint/spn/pkg/chainid"
-	launch "github.com/tendermint/spn/x/launch/types"
+	"github.com/spellshape/network/pkg/chainid"
+	launch "github.com/spellshape/network/x/launch/types"
 )
 
 // Metadata returns sample metadata bytes

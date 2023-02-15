@@ -3,16 +3,16 @@ package simulation_test
 import (
 	"testing"
 
-	profiletypes "github.com/tendermint/spn/x/profile/types"
+	profiletypes "github.com/spellshape/network/x/profile/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	testkeeper "github.com/tendermint/spn/testutil/keeper"
-	"github.com/tendermint/spn/testutil/sample"
-	launchtypes "github.com/tendermint/spn/x/launch/types"
-	rewardsimulation "github.com/tendermint/spn/x/reward/simulation"
-	"github.com/tendermint/spn/x/reward/types"
+	testkeeper "github.com/spellshape/network/testutil/keeper"
+	"github.com/spellshape/network/testutil/sample"
+	launchtypes "github.com/spellshape/network/x/launch/types"
+	rewardsimulation "github.com/spellshape/network/x/reward/simulation"
+	"github.com/spellshape/network/x/reward/types"
 )
 
 func TestFindRandomChainWithCoordBalance(t *testing.T) {

@@ -3,8 +3,8 @@ package monitoringc
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/tendermint/spn/x/monitoringc/keeper"
-	"github.com/tendermint/spn/x/monitoringc/types"
+	"github.com/spellshape/network/x/monitoringc/keeper"
+	"github.com/spellshape/network/x/monitoringc/types"
 )
 
 // InitGenesis initializes the monitoringc module's state from a provided genesis

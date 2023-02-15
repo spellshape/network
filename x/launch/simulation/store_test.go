@@ -8,15 +8,15 @@ import (
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	"github.com/stretchr/testify/require"
 
-	testkeeper "github.com/tendermint/spn/testutil/keeper"
-	"github.com/tendermint/spn/testutil/sample"
-	campaignkeeper "github.com/tendermint/spn/x/campaign/keeper"
-	campaigntypes "github.com/tendermint/spn/x/campaign/types"
-	"github.com/tendermint/spn/x/launch/keeper"
-	launchsimulation "github.com/tendermint/spn/x/launch/simulation"
-	"github.com/tendermint/spn/x/launch/types"
-	profilekeeper "github.com/tendermint/spn/x/profile/keeper"
-	profiletypes "github.com/tendermint/spn/x/profile/types"
+	testkeeper "github.com/spellshape/network/testutil/keeper"
+	"github.com/spellshape/network/testutil/sample"
+	campaignkeeper "github.com/spellshape/network/x/campaign/keeper"
+	campaigntypes "github.com/spellshape/network/x/campaign/types"
+	"github.com/spellshape/network/x/launch/keeper"
+	launchsimulation "github.com/spellshape/network/x/launch/simulation"
+	"github.com/spellshape/network/x/launch/types"
+	profilekeeper "github.com/spellshape/network/x/profile/keeper"
+	profiletypes "github.com/spellshape/network/x/profile/types"
 )
 
 func setupMsgServer(t testing.TB) (

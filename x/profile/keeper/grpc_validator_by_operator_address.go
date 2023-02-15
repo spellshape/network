@@ -7,7 +7,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/tendermint/spn/x/profile/types"
+	"github.com/spellshape/network/x/profile/types"
 )
 
 func (k Keeper) ValidatorByOperatorAddress(c context.Context, req *types.QueryGetValidatorByOperatorAddressRequest) (

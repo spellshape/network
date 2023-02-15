@@ -8,7 +8,7 @@ import (
 	ignterrors "github.com/ignite/modules/pkg/errors"
 	fundraisingtypes "github.com/tendermint/fundraising/x/fundraising/types"
 
-	"github.com/tendermint/spn/x/participation/types"
+	"github.com/spellshape/network/x/participation/types"
 )
 
 func (k msgServer) WithdrawAllocations(goCtx context.Context, msg *types.MsgWithdrawAllocations) (*types.MsgWithdrawAllocationsResponse, error) {

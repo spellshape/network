@@ -7,10 +7,10 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	testkeeper "github.com/tendermint/spn/testutil/keeper"
-	"github.com/tendermint/spn/testutil/nullify"
-	"github.com/tendermint/spn/x/monitoringc/keeper"
-	"github.com/tendermint/spn/x/monitoringc/types"
+	testkeeper "github.com/spellshape/network/testutil/keeper"
+	"github.com/spellshape/network/testutil/nullify"
+	"github.com/spellshape/network/x/monitoringc/keeper"
+	"github.com/spellshape/network/x/monitoringc/types"
 )
 
 func createNVerifiedClientID(ctx sdk.Context, keeper *keeper.Keeper, n int) []types.VerifiedClientID {

@@ -7,8 +7,8 @@ import (
 	"github.com/pkg/errors"
 	"gopkg.in/yaml.v2"
 
-	"github.com/tendermint/spn/pkg/chainid"
-	spntypes "github.com/tendermint/spn/pkg/types"
+	"github.com/spellshape/network/pkg/chainid"
+	spntypes "github.com/spellshape/network/pkg/types"
 )
 
 var (

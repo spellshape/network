@@ -15,15 +15,15 @@ import (
 
 	claim "github.com/ignite/modules/x/claim/types"
 
-	"github.com/tendermint/spn/testutil/network"
-	"github.com/tendermint/spn/testutil/nullify"
-	"github.com/tendermint/spn/testutil/sample"
-	campaign "github.com/tendermint/spn/x/campaign/types"
-	launch "github.com/tendermint/spn/x/launch/types"
-	monitoringc "github.com/tendermint/spn/x/monitoringc/types"
-	participation "github.com/tendermint/spn/x/participation/types"
-	profile "github.com/tendermint/spn/x/profile/types"
-	reward "github.com/tendermint/spn/x/reward/types"
+	"github.com/spellshape/network/testutil/network"
+	"github.com/spellshape/network/testutil/nullify"
+	"github.com/spellshape/network/testutil/sample"
+	campaign "github.com/spellshape/network/x/campaign/types"
+	launch "github.com/spellshape/network/x/launch/types"
+	monitoringc "github.com/spellshape/network/x/monitoringc/types"
+	participation "github.com/spellshape/network/x/participation/types"
+	profile "github.com/spellshape/network/x/profile/types"
+	reward "github.com/spellshape/network/x/reward/types"
 )
 
 // NetworkTestSuite is a test suite for query tests that initializes a network instance

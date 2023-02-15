@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/tendermint/spn/pkg/chainid"
-	"github.com/tendermint/spn/testutil/sample"
+	"github.com/spellshape/network/pkg/chainid"
+	"github.com/spellshape/network/testutil/sample"
 )
 
 func TestNewGenesisChainID(t *testing.T) {

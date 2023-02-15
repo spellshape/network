@@ -8,9 +8,9 @@ import (
 	"github.com/stretchr/testify/require"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	spntypes "github.com/tendermint/spn/pkg/types"
-	campaigntypes "github.com/tendermint/spn/x/campaign/types"
-	monitoringptypes "github.com/tendermint/spn/x/monitoringp/types"
+	spntypes "github.com/spellshape/network/pkg/types"
+	campaigntypes "github.com/spellshape/network/x/campaign/types"
+	monitoringptypes "github.com/spellshape/network/x/monitoringp/types"
 )
 
 // Vote is a simplified type for abci.VoteInfo for testing purpose

@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	spntypes "github.com/tendermint/spn/pkg/types"
-	"github.com/tendermint/spn/testutil/sample"
-	"github.com/tendermint/spn/x/monitoringc/types"
+	spntypes "github.com/spellshape/network/pkg/types"
+	"github.com/spellshape/network/testutil/sample"
+	"github.com/spellshape/network/x/monitoringc/types"
 )
 
 func TestMsgCreateClient_ValidateBasic(t *testing.T) {

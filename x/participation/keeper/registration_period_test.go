@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	testkeeper "github.com/tendermint/spn/testutil/keeper"
+	testkeeper "github.com/spellshape/network/testutil/keeper"
 )
 
 func TestIsRegistrationEnabled(t *testing.T) {

@@ -5,7 +5,7 @@ import "gogoproto/gogo.proto";
 import "reward/params.proto";
 import "reward/reward_pool.proto";
 
-option go_package = "github.com/tendermint/spn/x/reward/types";
+option go_package = "github.com/spellshape/network/x/reward/types";
 
 // GenesisState defines the reward module's genesis state.
 message GenesisState {

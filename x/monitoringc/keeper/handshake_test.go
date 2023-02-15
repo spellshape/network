@@ -9,9 +9,9 @@ import (
 	ignterrors "github.com/ignite/modules/pkg/errors"
 	"github.com/stretchr/testify/require"
 
-	testkeeper "github.com/tendermint/spn/testutil/keeper"
-	launchtypes "github.com/tendermint/spn/x/launch/types"
-	"github.com/tendermint/spn/x/monitoringc/types"
+	testkeeper "github.com/spellshape/network/testutil/keeper"
+	launchtypes "github.com/spellshape/network/x/launch/types"
+	"github.com/spellshape/network/x/monitoringc/types"
 )
 
 // testSetupWithFooClient returns a test setup with monitoring keeper containing necessary IBC mocks for a client with ID foo

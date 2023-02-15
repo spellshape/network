@@ -3,8 +3,8 @@ package profile
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/tendermint/spn/x/profile/keeper"
-	"github.com/tendermint/spn/x/profile/types"
+	"github.com/spellshape/network/x/profile/keeper"
+	"github.com/spellshape/network/x/profile/types"
 )
 
 // InitGenesis initializes the profile module's state from a provided genesis

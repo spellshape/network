@@ -6,7 +6,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	"github.com/tendermint/spn/testutil/sample"
+	"github.com/spellshape/network/testutil/sample"
 )
 
 // DelegateN creates N delegations from the same address

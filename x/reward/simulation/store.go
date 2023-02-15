@@ -5,9 +5,9 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	launchtypes "github.com/tendermint/spn/x/launch/types"
-	"github.com/tendermint/spn/x/reward/keeper"
-	"github.com/tendermint/spn/x/reward/types"
+	launchtypes "github.com/spellshape/network/x/launch/types"
+	"github.com/spellshape/network/x/reward/keeper"
+	"github.com/spellshape/network/x/reward/types"
 )
 
 // FindRandomChainWithCoordBalance find a random chain from store

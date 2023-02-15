@@ -9,7 +9,7 @@ import "launch/genesis_validator.proto";
 import "launch/chain.proto";
 import "launch/params.proto";
 
-option go_package = "github.com/tendermint/spn/x/launch/types";
+option go_package = "github.com/spellshape/network/x/launch/types";
 
 // GenesisState defines the launch module's genesis state.
 message GenesisState {

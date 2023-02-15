@@ -5,7 +5,7 @@ import "cosmos/base/query/v1beta1/pagination.proto";
 import "gogoproto/gogo.proto";
 import "types/ibc.proto";
 
-option go_package = "github.com/tendermint/spn/x/monitoringc/types";
+option go_package = "github.com/spellshape/network/x/monitoringc/types";
 
 // Msg defines the Msg service.
 service Msg {

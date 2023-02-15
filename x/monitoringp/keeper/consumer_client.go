@@ -10,8 +10,8 @@ import (
 	ibctmtypes "github.com/cosmos/ibc-go/v6/modules/light-clients/07-tendermint/types"
 	"github.com/tendermint/tendermint/light"
 
-	"github.com/tendermint/spn/pkg/chainid"
-	"github.com/tendermint/spn/x/monitoringp/types"
+	"github.com/spellshape/network/pkg/chainid"
+	"github.com/spellshape/network/x/monitoringp/types"
 )
 
 // InitializeConsumerClient initializes the consumer IBC client and set it in the store

@@ -45,8 +45,8 @@ SpndCommand "profile create-coordinator" olivia
 echo "creating chains..."
 SpndCommand 'launch create-chain example-10 https://github.com/ignite/example.git 0xaaa --metadata-file scripts/metadata_sample.yml' alice
 SpndCommand 'launch create-chain mars-1 https://github.com/lubtd/planet.git 0xbbb' bob
-SpndCommand 'launch create-chain spn-11 https://github.com/tendermint/spn.git 0xccc' carol
-SpndCommand 'launch create-chain spn-11 https://github.com/tendermint/spn.git 0xccc --account-balance 10000foo' carol
+SpndCommand 'launch create-chain spn-11 https://github.com/spellshape/network.git 0xccc' carol
+SpndCommand 'launch create-chain spn-11 https://github.com/spellshape/network.git 0xccc --account-balance 10000foo' carol
 
 echo "add requests to chain 1..."
 SpndCommand 'launch request-add-account 1 1000foo,500bar' alice

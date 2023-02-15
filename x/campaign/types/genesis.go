@@ -3,7 +3,7 @@ package types
 import (
 	"fmt"
 
-	spntypes "github.com/tendermint/spn/pkg/types"
+	spntypes "github.com/spellshape/network/pkg/types"
 )
 
 // DefaultGenesis returns the default Capability genesis state

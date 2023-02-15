@@ -7,8 +7,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	tc "github.com/tendermint/spn/testutil/constructor"
-	campaign "github.com/tendermint/spn/x/campaign/types"
+	tc "github.com/spellshape/network/testutil/constructor"
+	campaign "github.com/spellshape/network/x/campaign/types"
 )
 
 func TestUpdateTotalSupply(t *testing.T) {

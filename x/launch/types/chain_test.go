@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/tendermint/spn/testutil/sample"
-	"github.com/tendermint/spn/x/launch/types"
+	"github.com/spellshape/network/testutil/sample"
+	"github.com/spellshape/network/x/launch/types"
 )
 
 func TestChain_Validate(t *testing.T) {

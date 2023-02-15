@@ -5,7 +5,7 @@ import "gogoproto/gogo.proto";
 import "reward/reward_pool.proto";
 import "cosmos/base/v1beta1/coin.proto";
 
-option go_package = "github.com/tendermint/spn/x/reward/types";
+option go_package = "github.com/spellshape/network/x/reward/types";
 
 message EventRewardPoolCreated {
   uint64 launchID = 1;
