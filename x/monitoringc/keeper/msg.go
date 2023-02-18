@@ -1,7 +1,7 @@
 package keeper
 
 import (
-	"github.com/tendermint/spn/x/monitoringc/types"
+	"github.com/spellshape/network/x/monitoringc/types"
 )
 
 type msgServer struct {

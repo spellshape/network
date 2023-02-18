@@ -7,8 +7,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	ignterrors "github.com/ignite/modules/pkg/errors"
 
-	"github.com/tendermint/spn/x/launch/types"
-	profiletypes "github.com/tendermint/spn/x/profile/types"
+	"github.com/spellshape/network/x/launch/types"
+	profiletypes "github.com/spellshape/network/x/profile/types"
 )
 
 func (k msgServer) SendRequest(

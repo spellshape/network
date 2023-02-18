@@ -7,7 +7,7 @@ import (
 	channeltypes "github.com/cosmos/ibc-go/v5/modules/core/04-channel/types"
 	ignterrors "github.com/ignite/modules/pkg/errors"
 
-	"github.com/tendermint/spn/x/monitoringc/types"
+	"github.com/spellshape/network/x/monitoringc/types"
 )
 
 // VerifyClientIDFromConnID verifies if the client ID associated with the provided connection ID

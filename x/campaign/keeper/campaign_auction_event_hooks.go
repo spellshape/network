@@ -9,8 +9,8 @@ import (
 
 	fundraisingtypes "github.com/tendermint/fundraising/x/fundraising/types"
 
-	"github.com/tendermint/spn/x/campaign/types"
-	profiletypes "github.com/tendermint/spn/x/profile/types"
+	"github.com/spellshape/network/x/campaign/types"
+	profiletypes "github.com/spellshape/network/x/profile/types"
 )
 
 // EmitCampaignAuctionCreated emits EventCampaignAuctionCreated event if an auction is created for a campaign from a coordinator
@@ -90,7 +90,7 @@ func (h CampaignAuctionEventHooks) AfterFixedPriceAuctionCreated(
 	_ time.Time,
 ) {
 	// TODO: investigate error handling for hooks
-	// https://github.com/tendermint/spn/issues/869
+	// https://github.com/spellshape/network/issues/869
 	_, _ = h.campaignKeeper.EmitCampaignAuctionCreated(ctx, auctionID, auctioneer, sellingCoin)
 }
 
@@ -110,7 +110,7 @@ func (h CampaignAuctionEventHooks) AfterBatchAuctionCreated(
 	_ time.Time,
 ) {
 	// TODO: investigate error handling for hooks
-	// https://github.com/tendermint/spn/issues/869
+	// https://github.com/spellshape/network/issues/869
 	_, _ = h.campaignKeeper.EmitCampaignAuctionCreated(ctx, auctionID, auctioneer, sellingCoin)
 }
 

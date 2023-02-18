@@ -7,10 +7,10 @@ import (
 	sdkmath "cosmossdk.io/math"
 	"github.com/stretchr/testify/require"
 
-	spntypes "github.com/tendermint/spn/pkg/types"
-	tc2 "github.com/tendermint/spn/testutil/constructor"
-	"github.com/tendermint/spn/testutil/sample"
-	"github.com/tendermint/spn/x/campaign/types"
+	spntypes "github.com/spellshape/network/pkg/types"
+	tc2 "github.com/spellshape/network/testutil/constructor"
+	"github.com/spellshape/network/testutil/sample"
+	"github.com/spellshape/network/x/campaign/types"
 )
 
 func TestGenesisState_Validate(t *testing.T) {

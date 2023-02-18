@@ -3,8 +3,8 @@ package launch
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/tendermint/spn/x/launch/keeper"
-	"github.com/tendermint/spn/x/launch/types"
+	"github.com/spellshape/network/x/launch/keeper"
+	"github.com/spellshape/network/x/launch/types"
 )
 
 // InitGenesis initializes the launch module's state from a provided genesis

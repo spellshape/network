@@ -8,7 +8,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	fundraisingtypes "github.com/tendermint/fundraising/x/fundraising/types"
 
-	"github.com/tendermint/spn/x/participation/types"
+	"github.com/spellshape/network/x/participation/types"
 )
 
 func (k msgServer) Participate(goCtx context.Context, msg *types.MsgParticipate) (*types.MsgParticipateResponse, error) {

@@ -8,8 +8,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	ignterrors "github.com/ignite/modules/pkg/errors"
 
-	spntypes "github.com/tendermint/spn/pkg/types"
-	"github.com/tendermint/spn/x/reward/types"
+	spntypes "github.com/spellshape/network/pkg/types"
+	"github.com/spellshape/network/x/reward/types"
 )
 
 // DistributeRewards distributes rewards based on the monitoring packet

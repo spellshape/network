@@ -15,9 +15,9 @@ import (
 	"github.com/spf13/cobra"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/tendermint/spn/x/launch/client/cli"
-	"github.com/tendermint/spn/x/launch/keeper"
-	"github.com/tendermint/spn/x/launch/types"
+	"github.com/spellshape/network/x/launch/client/cli"
+	"github.com/spellshape/network/x/launch/keeper"
+	"github.com/spellshape/network/x/launch/types"
 )
 
 var (

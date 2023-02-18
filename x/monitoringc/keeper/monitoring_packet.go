@@ -7,8 +7,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	channeltypes "github.com/cosmos/ibc-go/v5/modules/core/04-channel/types"
 
-	spntypes "github.com/tendermint/spn/pkg/types"
-	"github.com/tendermint/spn/x/monitoringc/types"
+	spntypes "github.com/spellshape/network/pkg/types"
+	"github.com/spellshape/network/x/monitoringc/types"
 )
 
 // OnRecvMonitoringPacket processes packet reception

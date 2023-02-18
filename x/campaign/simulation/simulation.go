@@ -10,10 +10,10 @@ import (
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	sdksimulation "github.com/cosmos/cosmos-sdk/x/simulation"
 
-	"github.com/tendermint/spn/testutil/sample"
-	"github.com/tendermint/spn/testutil/simulation"
-	"github.com/tendermint/spn/x/campaign/keeper"
-	"github.com/tendermint/spn/x/campaign/types"
+	"github.com/spellshape/network/testutil/sample"
+	"github.com/spellshape/network/testutil/simulation"
+	"github.com/spellshape/network/x/campaign/keeper"
+	"github.com/spellshape/network/x/campaign/types"
 )
 
 // TypedMsg extends sdk.Msg with Type method

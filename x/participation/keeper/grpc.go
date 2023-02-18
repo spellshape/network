@@ -1,7 +1,7 @@
 package keeper
 
 import (
-	"github.com/tendermint/spn/x/participation/types"
+	"github.com/spellshape/network/x/participation/types"
 )
 
 var _ types.QueryServer = Keeper{}

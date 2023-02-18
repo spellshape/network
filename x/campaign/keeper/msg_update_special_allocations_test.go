@@ -8,12 +8,12 @@ import (
 	ignterrors "github.com/ignite/modules/pkg/errors"
 	"github.com/stretchr/testify/require"
 
-	tc "github.com/tendermint/spn/testutil/constructor"
-	testkeeper "github.com/tendermint/spn/testutil/keeper"
-	"github.com/tendermint/spn/testutil/sample"
-	"github.com/tendermint/spn/x/campaign/types"
-	launchtypes "github.com/tendermint/spn/x/launch/types"
-	profiletypes "github.com/tendermint/spn/x/profile/types"
+	tc "github.com/spellshape/network/testutil/constructor"
+	testkeeper "github.com/spellshape/network/testutil/keeper"
+	"github.com/spellshape/network/testutil/sample"
+	"github.com/spellshape/network/x/campaign/types"
+	launchtypes "github.com/spellshape/network/x/launch/types"
+	profiletypes "github.com/spellshape/network/x/profile/types"
 )
 
 func Test_msgServer_UpdateSpecialAllocations(t *testing.T) {

@@ -8,10 +8,10 @@ import (
 	"github.com/stretchr/testify/require"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	tc "github.com/tendermint/spn/testutil/constructor"
-	testkeeper "github.com/tendermint/spn/testutil/keeper"
-	"github.com/tendermint/spn/testutil/sample"
-	"github.com/tendermint/spn/x/monitoringp/types"
+	tc "github.com/spellshape/network/testutil/constructor"
+	testkeeper "github.com/spellshape/network/testutil/keeper"
+	"github.com/spellshape/network/testutil/sample"
+	"github.com/spellshape/network/x/monitoringp/types"
 )
 
 func TestKeeper_ReportBlockSignatures(t *testing.T) {

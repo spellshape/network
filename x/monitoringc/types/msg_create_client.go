@@ -4,7 +4,7 @@ import (
 	sdkerrors "cosmossdk.io/errors"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	spntypes "github.com/tendermint/spn/pkg/types"
+	spntypes "github.com/spellshape/network/pkg/types"
 )
 
 const TypeMsgCreateClient = "create_client"

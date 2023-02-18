@@ -5,7 +5,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/tendermint/spn/x/launch/types"
+	"github.com/spellshape/network/x/launch/types"
 )
 
 // LaunchTimeRange returns the launch time range param

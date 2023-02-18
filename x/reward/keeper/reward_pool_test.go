@@ -6,10 +6,10 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	testkeeper "github.com/tendermint/spn/testutil/keeper"
-	"github.com/tendermint/spn/testutil/nullify"
-	"github.com/tendermint/spn/x/reward/keeper"
-	"github.com/tendermint/spn/x/reward/types"
+	testkeeper "github.com/spellshape/network/testutil/keeper"
+	"github.com/spellshape/network/testutil/nullify"
+	"github.com/spellshape/network/x/reward/keeper"
+	"github.com/spellshape/network/x/reward/types"
 )
 
 func createNRewardPool(k *keeper.Keeper, ctx sdk.Context, n int) []types.RewardPool {

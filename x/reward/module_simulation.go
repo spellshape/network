@@ -8,8 +8,8 @@ import (
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
 
-	rewardsimulation "github.com/tendermint/spn/x/reward/simulation"
-	"github.com/tendermint/spn/x/reward/types"
+	rewardsimulation "github.com/spellshape/network/x/reward/simulation"
+	"github.com/spellshape/network/x/reward/types"
 )
 
 const (

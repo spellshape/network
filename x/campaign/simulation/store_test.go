@@ -9,13 +9,13 @@ import (
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	"github.com/stretchr/testify/require"
 
-	spntypes "github.com/tendermint/spn/pkg/types"
-	testkeeper "github.com/tendermint/spn/testutil/keeper"
-	"github.com/tendermint/spn/testutil/sample"
-	simcampaign "github.com/tendermint/spn/x/campaign/simulation"
-	campaigntypes "github.com/tendermint/spn/x/campaign/types"
-	profilekeeper "github.com/tendermint/spn/x/profile/keeper"
-	profiletypes "github.com/tendermint/spn/x/profile/types"
+	spntypes "github.com/spellshape/network/pkg/types"
+	testkeeper "github.com/spellshape/network/testutil/keeper"
+	"github.com/spellshape/network/testutil/sample"
+	simcampaign "github.com/spellshape/network/x/campaign/simulation"
+	campaigntypes "github.com/spellshape/network/x/campaign/types"
+	profilekeeper "github.com/spellshape/network/x/profile/keeper"
+	profiletypes "github.com/spellshape/network/x/profile/types"
 )
 
 // populateCoordinators populates the profile keeper with some coordinators from simulation accounts

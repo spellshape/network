@@ -12,9 +12,9 @@ import (
 	"github.com/stretchr/testify/require"
 	tmcli "github.com/tendermint/tendermint/libs/cli"
 
-	"github.com/tendermint/spn/testutil/nullify"
-	"github.com/tendermint/spn/x/campaign/client/cli"
-	"github.com/tendermint/spn/x/campaign/types"
+	"github.com/spellshape/network/testutil/nullify"
+	"github.com/spellshape/network/x/campaign/client/cli"
+	"github.com/spellshape/network/x/campaign/types"
 )
 
 func (suite *QueryTestSuite) TestShowCampaign() {

@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/tendermint/spn/testutil/nullify"
+	"github.com/spellshape/network/testutil/nullify"
 
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
@@ -14,8 +14,8 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/tendermint/spn/x/profile/client/cli"
-	"github.com/tendermint/spn/x/profile/types"
+	"github.com/spellshape/network/x/profile/client/cli"
+	"github.com/spellshape/network/x/profile/types"
 )
 
 func (suite *QueryTestSuite) TestShowValidator() {

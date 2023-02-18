@@ -10,7 +10,7 @@ import "cosmos_proto/cosmos.proto";
 import "launch/chain.proto";
 import "launch/request.proto";
 
-option go_package = "github.com/tendermint/spn/x/launch/types";
+option go_package = "github.com/spellshape/network/x/launch/types";
 
 // Msg defines the Msg service.
 service Msg {

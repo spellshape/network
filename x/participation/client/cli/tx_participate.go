@@ -7,7 +7,7 @@ import (
 	"github.com/spf13/cast"
 	"github.com/spf13/cobra"
 
-	"github.com/tendermint/spn/x/participation/types"
+	"github.com/spellshape/network/x/participation/types"
 )
 
 func CmdParticipate() *cobra.Command {

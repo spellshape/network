@@ -10,8 +10,8 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/tendermint/spn/x/profile/client/cli"
-	"github.com/tendermint/spn/x/profile/types"
+	"github.com/spellshape/network/x/profile/client/cli"
+	"github.com/spellshape/network/x/profile/types"
 )
 
 func (suite *QueryTestSuite) TestShowCoordinatorByAddress() {

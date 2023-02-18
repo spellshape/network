@@ -12,9 +12,9 @@ import (
 	ignterrors "github.com/ignite/modules/pkg/errors"
 	"github.com/tendermint/tendermint/light"
 
-	"github.com/tendermint/spn/pkg/chainid"
-	launchtypes "github.com/tendermint/spn/x/launch/types"
-	"github.com/tendermint/spn/x/monitoringc/types"
+	"github.com/spellshape/network/pkg/chainid"
+	launchtypes "github.com/spellshape/network/x/launch/types"
+	"github.com/spellshape/network/x/monitoringc/types"
 )
 
 func (k msgServer) CreateClient(goCtx context.Context, msg *types.MsgCreateClient) (*types.MsgCreateClientResponse, error) {

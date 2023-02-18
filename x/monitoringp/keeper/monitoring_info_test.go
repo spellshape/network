@@ -6,10 +6,10 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	testkeeper "github.com/tendermint/spn/testutil/keeper"
-	"github.com/tendermint/spn/testutil/nullify"
-	"github.com/tendermint/spn/x/monitoringp/keeper"
-	"github.com/tendermint/spn/x/monitoringp/types"
+	testkeeper "github.com/spellshape/network/testutil/keeper"
+	"github.com/spellshape/network/testutil/nullify"
+	"github.com/spellshape/network/x/monitoringp/keeper"
+	"github.com/spellshape/network/x/monitoringp/types"
 )
 
 func createTestMonitoringInfo(ctx sdk.Context, keeper *keeper.Keeper) types.MonitoringInfo {

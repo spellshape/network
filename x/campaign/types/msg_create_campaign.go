@@ -4,8 +4,8 @@ import (
 	sdkerrors "cosmossdk.io/errors"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	spntypes "github.com/tendermint/spn/pkg/types"
-	profile "github.com/tendermint/spn/x/profile/types"
+	spntypes "github.com/spellshape/network/pkg/types"
+	profile "github.com/spellshape/network/x/profile/types"
 )
 
 const TypeMsgCreateCampaign = "create_campaign"

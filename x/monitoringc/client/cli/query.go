@@ -6,7 +6,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/spf13/cobra"
 
-	"github.com/tendermint/spn/x/monitoringc/types"
+	"github.com/spellshape/network/x/monitoringc/types"
 )
 
 // GetQueryCmd returns the cli query commands for this module

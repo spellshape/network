@@ -7,8 +7,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 
-	"github.com/tendermint/spn/x/launch/keeper"
-	"github.com/tendermint/spn/x/launch/types"
+	"github.com/spellshape/network/x/launch/keeper"
+	"github.com/spellshape/network/x/launch/types"
 )
 
 // IsLaunchTriggeredChain check if chain is launch triggered

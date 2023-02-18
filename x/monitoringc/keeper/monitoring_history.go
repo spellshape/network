@@ -4,7 +4,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/store/prefix"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/tendermint/spn/x/monitoringc/types"
+	"github.com/spellshape/network/x/monitoringc/types"
 )
 
 // SetMonitoringHistory set a specific monitoringHistory in the store from its index

@@ -3,12 +3,12 @@ package keeper_test
 import (
 	"testing"
 
-	testkeeper "github.com/tendermint/spn/testutil/keeper"
+	testkeeper "github.com/spellshape/network/testutil/keeper"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/tendermint/spn/testutil/sample"
-	"github.com/tendermint/spn/x/launch/keeper"
+	"github.com/spellshape/network/testutil/sample"
+	"github.com/spellshape/network/x/launch/keeper"
 )
 
 func TestDuplicatedAccountInvariant(t *testing.T) {

@@ -7,11 +7,11 @@ import (
 	bankkeeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
 	"github.com/stretchr/testify/require"
 
-	testkeeper "github.com/tendermint/spn/testutil/keeper"
-	"github.com/tendermint/spn/testutil/sample"
-	"github.com/tendermint/spn/x/campaign/keeper"
-	"github.com/tendermint/spn/x/campaign/types"
-	profiletypes "github.com/tendermint/spn/x/profile/types"
+	testkeeper "github.com/spellshape/network/testutil/keeper"
+	"github.com/spellshape/network/testutil/sample"
+	"github.com/spellshape/network/x/campaign/keeper"
+	"github.com/spellshape/network/x/campaign/types"
+	profiletypes "github.com/spellshape/network/x/profile/types"
 )
 
 func initCreationFeeAndFundCoordAccounts(

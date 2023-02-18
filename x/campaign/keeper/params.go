@@ -3,7 +3,7 @@ package keeper
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/tendermint/spn/x/campaign/types"
+	"github.com/spellshape/network/x/campaign/types"
 )
 
 // GetParams returns the total set of campaign parameters.

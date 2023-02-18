@@ -6,7 +6,7 @@ import (
 	connectiontypes "github.com/cosmos/ibc-go/v5/modules/core/03-connection/types"
 	channeltypes "github.com/cosmos/ibc-go/v5/modules/core/04-channel/types"
 
-	"github.com/tendermint/spn/x/monitoringp/types"
+	"github.com/spellshape/network/x/monitoringp/types"
 )
 
 // VerifyClientIDFromConnID verifies if the client ID associated with the provided connection ID

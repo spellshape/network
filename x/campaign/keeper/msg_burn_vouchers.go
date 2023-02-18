@@ -7,7 +7,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	ignterrors "github.com/ignite/modules/pkg/errors"
 
-	"github.com/tendermint/spn/x/campaign/types"
+	"github.com/spellshape/network/x/campaign/types"
 )
 
 func (k msgServer) BurnVouchers(goCtx context.Context, msg *types.MsgBurnVouchers) (*types.MsgBurnVouchersResponse, error) {

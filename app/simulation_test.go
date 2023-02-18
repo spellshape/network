@@ -22,9 +22,9 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/tendermint/spn/app"
-	"github.com/tendermint/spn/app/simutil"
-	"github.com/tendermint/spn/cmd"
+	"github.com/spellshape/network/app"
+	"github.com/spellshape/network/app/simutil"
+	"github.com/spellshape/network/cmd"
 )
 
 func init() {

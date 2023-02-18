@@ -7,8 +7,8 @@ import (
 	"github.com/spf13/cast"
 	"github.com/spf13/cobra"
 
-	spntypes "github.com/tendermint/spn/pkg/types"
-	"github.com/tendermint/spn/x/monitoringc/types"
+	spntypes "github.com/spellshape/network/pkg/types"
+	"github.com/spellshape/network/x/monitoringc/types"
 )
 
 const (

@@ -3,9 +3,9 @@ package sample
 import (
 	"math/rand"
 
-	"github.com/tendermint/spn/pkg/types"
-	monitoringc "github.com/tendermint/spn/x/monitoringc/types"
-	monitoringp "github.com/tendermint/spn/x/monitoringp/types"
+	"github.com/spellshape/network/pkg/types"
+	monitoringc "github.com/spellshape/network/x/monitoringc/types"
+	monitoringp "github.com/spellshape/network/x/monitoringp/types"
 )
 
 const ConsensusStateNb = 2

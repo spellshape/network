@@ -10,8 +10,8 @@ import (
 	"github.com/stretchr/testify/require"
 	tmcli "github.com/tendermint/tendermint/libs/cli"
 
-	"github.com/tendermint/spn/x/launch/client/cli"
-	"github.com/tendermint/spn/x/launch/types"
+	"github.com/spellshape/network/x/launch/client/cli"
+	"github.com/spellshape/network/x/launch/types"
 )
 
 func (suite *QueryTestSuite) TestListParamChange() {

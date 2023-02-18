@@ -22,13 +22,13 @@ import (
 	"github.com/tendermint/tendermint/crypto"
 	"github.com/tendermint/tendermint/crypto/ed25519"
 
-	campaign "github.com/tendermint/spn/x/campaign/types"
-	launch "github.com/tendermint/spn/x/launch/types"
-	monitoringc "github.com/tendermint/spn/x/monitoringc/types"
-	monitoringp "github.com/tendermint/spn/x/monitoringp/types"
-	participation "github.com/tendermint/spn/x/participation/types"
-	profile "github.com/tendermint/spn/x/profile/types"
-	reward "github.com/tendermint/spn/x/reward/types"
+	campaign "github.com/spellshape/network/x/campaign/types"
+	launch "github.com/spellshape/network/x/launch/types"
+	monitoringc "github.com/spellshape/network/x/monitoringc/types"
+	monitoringp "github.com/spellshape/network/x/monitoringp/types"
+	participation "github.com/spellshape/network/x/participation/types"
+	profile "github.com/spellshape/network/x/profile/types"
+	reward "github.com/spellshape/network/x/reward/types"
 )
 
 // Codec returns a codec with preregistered interfaces

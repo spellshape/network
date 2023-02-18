@@ -9,7 +9,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/tendermint/spn/x/profile/types"
+	"github.com/spellshape/network/x/profile/types"
 )
 
 func (k Keeper) CoordinatorAll(c context.Context, req *types.QueryAllCoordinatorRequest) (*types.QueryAllCoordinatorResponse, error) {

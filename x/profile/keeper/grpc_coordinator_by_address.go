@@ -7,7 +7,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/tendermint/spn/x/profile/types"
+	"github.com/spellshape/network/x/profile/types"
 )
 
 func (k Keeper) CoordinatorByAddress(c context.Context, req *types.QueryGetCoordinatorByAddressRequest) (*types.QueryGetCoordinatorByAddressResponse, error) {

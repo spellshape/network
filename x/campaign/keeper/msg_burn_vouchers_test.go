@@ -8,10 +8,10 @@ import (
 	ignterrors "github.com/ignite/modules/pkg/errors"
 	"github.com/stretchr/testify/require"
 
-	spntypes "github.com/tendermint/spn/pkg/types"
-	testkeeper "github.com/tendermint/spn/testutil/keeper"
-	"github.com/tendermint/spn/testutil/sample"
-	"github.com/tendermint/spn/x/campaign/types"
+	spntypes "github.com/spellshape/network/pkg/types"
+	testkeeper "github.com/spellshape/network/testutil/keeper"
+	"github.com/spellshape/network/testutil/sample"
+	"github.com/spellshape/network/x/campaign/types"
 )
 
 func TestMsgBurnVouchers(t *testing.T) {

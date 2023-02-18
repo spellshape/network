@@ -9,7 +9,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/tendermint/spn/x/monitoringc/types"
+	"github.com/spellshape/network/x/monitoringc/types"
 )
 
 func (k Keeper) ProviderClientIDAll(c context.Context, req *types.QueryAllProviderClientIDRequest) (*types.QueryAllProviderClientIDResponse, error) {

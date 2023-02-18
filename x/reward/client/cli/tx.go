@@ -6,7 +6,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/spf13/cobra"
 
-	"github.com/tendermint/spn/x/reward/types"
+	"github.com/spellshape/network/x/reward/types"
 )
 
 // GetTxCmd returns the transaction commands for this module

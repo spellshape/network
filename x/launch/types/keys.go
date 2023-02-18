@@ -1,6 +1,6 @@
 package types
 
-import spntypes "github.com/tendermint/spn/pkg/types"
+import spntypes "github.com/spellshape/network/pkg/types"
 
 const (
 	// ModuleName defines the module name

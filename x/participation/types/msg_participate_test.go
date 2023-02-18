@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/tendermint/spn/testutil/sample"
-	"github.com/tendermint/spn/x/participation/types"
+	"github.com/spellshape/network/testutil/sample"
+	"github.com/spellshape/network/x/participation/types"
 )
 
 func TestMsgParticipate_ValidateBasic(t *testing.T) {

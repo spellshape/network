@@ -11,11 +11,11 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	tc "github.com/tendermint/spn/testutil/constructor"
-	testkeeper "github.com/tendermint/spn/testutil/keeper"
-	"github.com/tendermint/spn/testutil/sample"
-	"github.com/tendermint/spn/x/campaign/keeper"
-	"github.com/tendermint/spn/x/campaign/types"
+	tc "github.com/spellshape/network/testutil/constructor"
+	testkeeper "github.com/spellshape/network/testutil/keeper"
+	"github.com/spellshape/network/testutil/sample"
+	"github.com/spellshape/network/x/campaign/keeper"
+	"github.com/spellshape/network/x/campaign/types"
 )
 
 func createNMainnetAccountForCampaignID(

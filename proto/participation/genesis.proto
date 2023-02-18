@@ -7,7 +7,7 @@ import "participation/used_allocations.proto";
 import "participation/auction_used_allocations.proto";
 // this line is used by starport scaffolding # genesis/proto/import
 
-option go_package = "github.com/tendermint/spn/x/participation/types";
+option go_package = "github.com/spellshape/network/x/participation/types";
 
 // GenesisState defines the participation module's genesis state.
 message GenesisState {

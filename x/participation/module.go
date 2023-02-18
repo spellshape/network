@@ -18,9 +18,9 @@ import (
 	fundraisingkeeper "github.com/tendermint/fundraising/x/fundraising/keeper"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/tendermint/spn/x/participation/client/cli"
-	"github.com/tendermint/spn/x/participation/keeper"
-	"github.com/tendermint/spn/x/participation/types"
+	"github.com/spellshape/network/x/participation/client/cli"
+	"github.com/spellshape/network/x/participation/keeper"
+	"github.com/spellshape/network/x/participation/types"
 )
 
 var (

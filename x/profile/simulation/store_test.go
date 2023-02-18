@@ -6,10 +6,10 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/simulation"
 	"github.com/stretchr/testify/require"
 
-	testkeeper "github.com/tendermint/spn/testutil/keeper"
-	"github.com/tendermint/spn/testutil/sample"
-	profilesim "github.com/tendermint/spn/x/profile/simulation"
-	"github.com/tendermint/spn/x/profile/types"
+	testkeeper "github.com/spellshape/network/testutil/keeper"
+	"github.com/spellshape/network/testutil/sample"
+	profilesim "github.com/spellshape/network/x/profile/simulation"
+	"github.com/spellshape/network/x/profile/types"
 )
 
 func TestFindCoordinatorAccount(t *testing.T) {

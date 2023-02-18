@@ -8,13 +8,13 @@ import (
 	ignterrors "github.com/ignite/modules/pkg/errors"
 	"github.com/stretchr/testify/require"
 
-	spntypes "github.com/tendermint/spn/pkg/types"
-	tc "github.com/tendermint/spn/testutil/constructor"
-	testkeeper "github.com/tendermint/spn/testutil/keeper"
-	"github.com/tendermint/spn/testutil/sample"
-	profiletypes "github.com/tendermint/spn/x/profile/types"
-	"github.com/tendermint/spn/x/reward/keeper"
-	"github.com/tendermint/spn/x/reward/types"
+	spntypes "github.com/spellshape/network/pkg/types"
+	tc "github.com/spellshape/network/testutil/constructor"
+	testkeeper "github.com/spellshape/network/testutil/keeper"
+	"github.com/spellshape/network/testutil/sample"
+	profiletypes "github.com/spellshape/network/x/profile/types"
+	"github.com/spellshape/network/x/reward/keeper"
+	"github.com/spellshape/network/x/reward/types"
 )
 
 func TestCalculateRewards(t *testing.T) {

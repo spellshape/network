@@ -7,8 +7,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 
-	"github.com/tendermint/spn/x/profile/keeper"
-	"github.com/tendermint/spn/x/profile/types"
+	"github.com/spellshape/network/x/profile/keeper"
+	"github.com/spellshape/network/x/profile/types"
 )
 
 // FindCoordinatorAccount find a sim account for a coordinator that exists or not

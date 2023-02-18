@@ -12,7 +12,7 @@ import (
 	host "github.com/cosmos/ibc-go/v5/modules/core/24-host"
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/tendermint/spn/x/monitoringc/types"
+	"github.com/spellshape/network/x/monitoringc/types"
 )
 
 type (

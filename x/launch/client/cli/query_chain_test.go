@@ -11,8 +11,8 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/tendermint/spn/x/launch/client/cli"
-	"github.com/tendermint/spn/x/launch/types"
+	"github.com/spellshape/network/x/launch/client/cli"
+	"github.com/spellshape/network/x/launch/types"
 )
 
 func (suite *QueryTestSuite) TestShowChain() {

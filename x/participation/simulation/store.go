@@ -10,8 +10,8 @@ import (
 	fundraisingkeeper "github.com/tendermint/fundraising/x/fundraising/keeper"
 	fundraisingtypes "github.com/tendermint/fundraising/x/fundraising/types"
 
-	"github.com/tendermint/spn/x/participation/keeper"
-	"github.com/tendermint/spn/x/participation/types"
+	"github.com/spellshape/network/x/participation/keeper"
+	"github.com/spellshape/network/x/participation/types"
 )
 
 // RandomAccWithBalance returns random account with the desired available balance

@@ -8,9 +8,9 @@ import (
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
 
-	"github.com/tendermint/spn/testutil/sample"
-	profilesimulation "github.com/tendermint/spn/x/profile/simulation"
-	"github.com/tendermint/spn/x/profile/types"
+	"github.com/spellshape/network/testutil/sample"
+	profilesimulation "github.com/spellshape/network/x/profile/simulation"
+	"github.com/spellshape/network/x/profile/types"
 )
 
 const (

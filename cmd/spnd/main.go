@@ -5,9 +5,9 @@ import (
 
 	svrcmd "github.com/cosmos/cosmos-sdk/server/cmd"
 
-	"github.com/tendermint/spn/app"
-	"github.com/tendermint/spn/cmd"
-	spntypes "github.com/tendermint/spn/pkg/types"
+	"github.com/spellshape/network/app"
+	"github.com/spellshape/network/cmd"
+	spntypes "github.com/spellshape/network/pkg/types"
 )
 
 func main() {

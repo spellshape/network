@@ -4,7 +4,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/store/prefix"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/tendermint/spn/x/monitoringp/types"
+	"github.com/spellshape/network/x/monitoringp/types"
 )
 
 // SetConnectionChannelID set connectionChannelID in the store

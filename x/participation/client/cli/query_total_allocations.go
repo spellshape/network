@@ -5,7 +5,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/spf13/cobra"
 
-	"github.com/tendermint/spn/x/participation/types"
+	"github.com/spellshape/network/x/participation/types"
 )
 
 func CmdShowTotalAllocations() *cobra.Command {

@@ -9,9 +9,9 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	tc "github.com/tendermint/spn/testutil/constructor"
-	"github.com/tendermint/spn/testutil/sample"
-	"github.com/tendermint/spn/x/launch/types"
+	tc "github.com/spellshape/network/testutil/constructor"
+	"github.com/spellshape/network/testutil/sample"
+	"github.com/spellshape/network/x/launch/types"
 )
 
 func TestRequestContent_Validate(t *testing.T) {

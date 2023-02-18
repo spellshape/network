@@ -6,8 +6,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/store/prefix"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	spntypes "github.com/tendermint/spn/pkg/types"
-	"github.com/tendermint/spn/x/campaign/types"
+	spntypes "github.com/spellshape/network/pkg/types"
+	"github.com/spellshape/network/x/campaign/types"
 )
 
 // GetCampaignCounter get the counter for campaign

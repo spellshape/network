@@ -6,10 +6,10 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	testkeeper "github.com/tendermint/spn/testutil/keeper"
-	"github.com/tendermint/spn/testutil/sample"
-	"github.com/tendermint/spn/x/campaign/keeper"
-	"github.com/tendermint/spn/x/campaign/types"
+	testkeeper "github.com/spellshape/network/testutil/keeper"
+	"github.com/spellshape/network/testutil/sample"
+	"github.com/spellshape/network/x/campaign/keeper"
+	"github.com/spellshape/network/x/campaign/types"
 )
 
 func createNMainnetAccount(keeper *keeper.Keeper, ctx sdk.Context, n int) []types.MainnetAccount {

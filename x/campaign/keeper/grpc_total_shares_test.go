@@ -8,9 +8,9 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	spntypes "github.com/tendermint/spn/pkg/types"
-	testkeeper "github.com/tendermint/spn/testutil/keeper"
-	"github.com/tendermint/spn/x/campaign/types"
+	spntypes "github.com/spellshape/network/pkg/types"
+	testkeeper "github.com/spellshape/network/testutil/keeper"
+	"github.com/spellshape/network/x/campaign/types"
 )
 
 func TestTotalSharesQuery(t *testing.T) {

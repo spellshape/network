@@ -5,10 +5,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	testkeeper "github.com/tendermint/spn/testutil/keeper"
-	"github.com/tendermint/spn/testutil/nullify"
-	"github.com/tendermint/spn/x/monitoringc"
-	"github.com/tendermint/spn/x/monitoringc/types"
+	testkeeper "github.com/spellshape/network/testutil/keeper"
+	"github.com/spellshape/network/testutil/nullify"
+	"github.com/spellshape/network/x/monitoringc"
+	"github.com/spellshape/network/x/monitoringc/types"
 )
 
 func TestGenesis(t *testing.T) {

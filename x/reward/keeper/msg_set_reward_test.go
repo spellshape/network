@@ -6,13 +6,13 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	tc "github.com/tendermint/spn/testutil/constructor"
-	testkeeper "github.com/tendermint/spn/testutil/keeper"
-	"github.com/tendermint/spn/testutil/sample"
-	launchtypes "github.com/tendermint/spn/x/launch/types"
-	profiletypes "github.com/tendermint/spn/x/profile/types"
-	"github.com/tendermint/spn/x/reward/keeper"
-	"github.com/tendermint/spn/x/reward/types"
+	tc "github.com/spellshape/network/testutil/constructor"
+	testkeeper "github.com/spellshape/network/testutil/keeper"
+	"github.com/spellshape/network/testutil/sample"
+	launchtypes "github.com/spellshape/network/x/launch/types"
+	profiletypes "github.com/spellshape/network/x/profile/types"
+	"github.com/spellshape/network/x/reward/keeper"
+	"github.com/spellshape/network/x/reward/types"
 )
 
 func initRewardPool(

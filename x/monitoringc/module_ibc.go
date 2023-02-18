@@ -11,8 +11,8 @@ import (
 	host "github.com/cosmos/ibc-go/v5/modules/core/24-host"
 	ibcexported "github.com/cosmos/ibc-go/v5/modules/core/exported"
 
-	spntypes "github.com/tendermint/spn/pkg/types"
-	"github.com/tendermint/spn/x/monitoringc/types"
+	spntypes "github.com/spellshape/network/pkg/types"
+	"github.com/spellshape/network/x/monitoringc/types"
 )
 
 // OnChanOpenInit implements the IBCModule interface

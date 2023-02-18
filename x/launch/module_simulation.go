@@ -8,9 +8,9 @@ import (
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
 
-	"github.com/tendermint/spn/testutil/sample"
-	launchsim "github.com/tendermint/spn/x/launch/simulation"
-	"github.com/tendermint/spn/x/launch/types"
+	"github.com/spellshape/network/testutil/sample"
+	launchsim "github.com/spellshape/network/x/launch/simulation"
+	"github.com/spellshape/network/x/launch/types"
 )
 
 const (

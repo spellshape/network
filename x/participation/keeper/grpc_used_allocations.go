@@ -10,7 +10,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/tendermint/spn/x/participation/types"
+	"github.com/spellshape/network/x/participation/types"
 )
 
 func (k Keeper) UsedAllocationsAll(c context.Context, req *types.QueryAllUsedAllocationsRequest) (*types.QueryAllUsedAllocationsResponse, error) {

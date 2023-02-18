@@ -6,8 +6,8 @@ import (
 	sdkmath "cosmossdk.io/math"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	spntypes "github.com/tendermint/spn/pkg/types"
-	campaign "github.com/tendermint/spn/x/campaign/types"
+	spntypes "github.com/spellshape/network/pkg/types"
+	campaign "github.com/spellshape/network/x/campaign/types"
 )
 
 // Shares returns a sample shares

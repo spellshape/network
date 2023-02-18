@@ -9,7 +9,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/tendermint/spn/x/launch/types"
+	"github.com/spellshape/network/x/launch/types"
 )
 
 func (k Keeper) ChainAll(c context.Context, req *types.QueryAllChainRequest) (*types.QueryAllChainResponse, error) {

@@ -10,7 +10,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/tendermint/spn/x/launch/types"
+	"github.com/spellshape/network/x/launch/types"
 )
 
 func (k Keeper) ParamChangeAll(goCtx context.Context, req *types.QueryAllParamChangeRequest) (

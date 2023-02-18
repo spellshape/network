@@ -11,17 +11,17 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	spntypes "github.com/tendermint/spn/pkg/types"
-	campaignkeeper "github.com/tendermint/spn/x/campaign/keeper"
-	campaigntypes "github.com/tendermint/spn/x/campaign/types"
-	launchkeeper "github.com/tendermint/spn/x/launch/keeper"
-	launchtypes "github.com/tendermint/spn/x/launch/types"
-	monitoringptypes "github.com/tendermint/spn/x/monitoringp/types"
-	participationkeeper "github.com/tendermint/spn/x/participation/keeper"
-	participationtypes "github.com/tendermint/spn/x/participation/types"
-	profilekeeper "github.com/tendermint/spn/x/profile/keeper"
-	rewardkeeper "github.com/tendermint/spn/x/reward/keeper"
-	rewardtypes "github.com/tendermint/spn/x/reward/types"
+	spntypes "github.com/spellshape/network/pkg/types"
+	campaignkeeper "github.com/spellshape/network/x/campaign/keeper"
+	campaigntypes "github.com/spellshape/network/x/campaign/types"
+	launchkeeper "github.com/spellshape/network/x/launch/keeper"
+	launchtypes "github.com/spellshape/network/x/launch/types"
+	monitoringptypes "github.com/spellshape/network/x/monitoringp/types"
+	participationkeeper "github.com/spellshape/network/x/participation/keeper"
+	participationtypes "github.com/spellshape/network/x/participation/types"
+	profilekeeper "github.com/spellshape/network/x/profile/keeper"
+	rewardkeeper "github.com/spellshape/network/x/reward/keeper"
+	rewardtypes "github.com/spellshape/network/x/reward/types"
 )
 
 // NewTestSetupWithMonitoringp returns a test keepers struct and servers struct with the monitoring provider module

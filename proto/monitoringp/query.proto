@@ -10,7 +10,7 @@ import "monitoringp/connection_channel_id.proto";
 import "monitoringp/monitoring_info.proto";
 // this line is used by starport scaffolding # 1
 
-option go_package = "github.com/tendermint/spn/x/monitoringp/types";
+option go_package = "github.com/spellshape/network/x/monitoringp/types";
 
 // Query defines the gRPC querier service.
 service Query {

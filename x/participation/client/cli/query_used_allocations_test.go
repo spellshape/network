@@ -12,9 +12,9 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/tendermint/spn/testutil/nullify"
-	"github.com/tendermint/spn/x/participation/client/cli"
-	"github.com/tendermint/spn/x/participation/types"
+	"github.com/spellshape/network/testutil/nullify"
+	"github.com/spellshape/network/x/participation/client/cli"
+	"github.com/spellshape/network/x/participation/types"
 )
 
 func (suite *QueryTestSuite) TestShowUsedAllocations() {

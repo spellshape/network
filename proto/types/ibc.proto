@@ -3,7 +3,7 @@ package tendermint.spn.types;
 
 import "gogoproto/gogo.proto";
 
-option go_package = "github.com/tendermint/spn/pkg/types";
+option go_package = "github.com/spellshape/network/pkg/types";
 
 // MerkleRoot represents a Merkle Root in ConsensusState
 message MerkleRoot {

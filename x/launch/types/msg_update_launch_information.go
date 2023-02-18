@@ -4,9 +4,9 @@ import (
 	sdkerrors "cosmossdk.io/errors"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	profile "github.com/tendermint/spn/x/profile/types"
+	profile "github.com/spellshape/network/x/profile/types"
 
-	"github.com/tendermint/spn/pkg/chainid"
+	"github.com/spellshape/network/pkg/chainid"
 )
 
 const TypeMsgUpdateLaunchInformation = "update_launch_information"

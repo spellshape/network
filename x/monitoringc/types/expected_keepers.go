@@ -9,8 +9,8 @@ import (
 	"github.com/cosmos/ibc-go/v5/modules/core/exported"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	spntypes "github.com/tendermint/spn/pkg/types"
-	launchtypes "github.com/tendermint/spn/x/launch/types"
+	spntypes "github.com/spellshape/network/pkg/types"
+	launchtypes "github.com/spellshape/network/x/launch/types"
 )
 
 type LaunchKeeper interface {

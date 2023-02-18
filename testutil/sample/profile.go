@@ -3,7 +3,7 @@ package sample
 import (
 	"math/rand"
 
-	profile "github.com/tendermint/spn/x/profile/types"
+	profile "github.com/spellshape/network/x/profile/types"
 )
 
 // MsgCreateCoordinator returns a sample MsgCreateCoordinator

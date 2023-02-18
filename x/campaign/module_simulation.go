@@ -8,9 +8,9 @@ import (
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
 
-	"github.com/tendermint/spn/testutil/sample"
-	campaignsim "github.com/tendermint/spn/x/campaign/simulation"
-	"github.com/tendermint/spn/x/campaign/types"
+	"github.com/spellshape/network/testutil/sample"
+	campaignsim "github.com/spellshape/network/x/campaign/simulation"
+	"github.com/spellshape/network/x/campaign/types"
 )
 
 const (

@@ -7,8 +7,8 @@ import (
 	sdkerrors "cosmossdk.io/errors"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/tendermint/spn/x/campaign/types"
-	profiletypes "github.com/tendermint/spn/x/profile/types"
+	"github.com/spellshape/network/x/campaign/types"
+	profiletypes "github.com/spellshape/network/x/profile/types"
 )
 
 func (k msgServer) EditCampaign(goCtx context.Context, msg *types.MsgEditCampaign) (*types.MsgEditCampaignResponse, error) {

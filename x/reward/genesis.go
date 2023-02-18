@@ -3,8 +3,8 @@ package reward
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/tendermint/spn/x/reward/keeper"
-	"github.com/tendermint/spn/x/reward/types"
+	"github.com/spellshape/network/x/reward/keeper"
+	"github.com/spellshape/network/x/reward/types"
 )
 
 // InitGenesis initializes the reward module's state from a provided genesis

@@ -9,8 +9,8 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	campaigntypes "github.com/tendermint/spn/x/campaign/types"
-	"github.com/tendermint/spn/x/launch/types"
+	campaigntypes "github.com/spellshape/network/x/campaign/types"
+	"github.com/spellshape/network/x/launch/types"
 )
 
 func (k Keeper) GenesisAccountAll(c context.Context, req *types.QueryAllGenesisAccountRequest) (*types.QueryAllGenesisAccountResponse, error) {

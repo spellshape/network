@@ -3,16 +3,16 @@ package keeper_test
 import (
 	"testing"
 
-	testkeeper "github.com/tendermint/spn/testutil/keeper"
+	testkeeper "github.com/spellshape/network/testutil/keeper"
 
-	campaigntypes "github.com/tendermint/spn/x/campaign/types"
+	campaigntypes "github.com/spellshape/network/x/campaign/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/tendermint/spn/testutil/sample"
-	"github.com/tendermint/spn/x/launch/types"
-	profiletypes "github.com/tendermint/spn/x/profile/types"
+	"github.com/spellshape/network/testutil/sample"
+	"github.com/spellshape/network/x/launch/types"
+	profiletypes "github.com/spellshape/network/x/profile/types"
 )
 
 func TestMsgEditChain(t *testing.T) {

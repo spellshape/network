@@ -7,8 +7,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 
-	"github.com/tendermint/spn/x/monitoringc/keeper"
-	"github.com/tendermint/spn/x/monitoringc/types"
+	"github.com/spellshape/network/x/monitoringc/keeper"
+	"github.com/spellshape/network/x/monitoringc/types"
 )
 
 func SimulateMsgCreateClient(

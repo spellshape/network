@@ -3,7 +3,7 @@ package tendermint.spn.reward;
 
 import "gogoproto/gogo.proto";
 
-option go_package = "github.com/tendermint/spn/x/reward/types";
+option go_package = "github.com/spellshape/network/x/reward/types";
 
 // Params defines the parameters for the module.
 message Params {
